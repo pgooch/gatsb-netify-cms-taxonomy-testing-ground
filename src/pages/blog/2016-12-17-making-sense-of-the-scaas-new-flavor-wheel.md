@@ -12,6 +12,7 @@ tags:
   - something
   - and
   - more
+category: Cherries
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 
