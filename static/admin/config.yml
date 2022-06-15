@@ -36,7 +36,7 @@ collections:
         label: Category
         widget: relation
         collection: values
-        file: data/categories.md
+        file: categories
         search_fields: [categories.*.name]
         display_fields: [categories.*.name]
         value_field: categories.*.name
@@ -45,7 +45,7 @@ collections:
     editor:
       preview: false
     files:
-      - name: Categories
+      - name: categories
         label: Categories
         label_singular: Category
         file: "data/categories.md"
