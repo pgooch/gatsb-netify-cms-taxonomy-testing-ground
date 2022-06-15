@@ -36,7 +36,7 @@ collections:
         label: Category
         widget: relation
         collection: values
-        file: categories
+        file: data/categories.md
         search_fields: [categories.*.name]
         display_fields: [categories.*.name]
         value_field: categories.*.name
@@ -60,3 +60,4 @@ collections:
               - name: showInFilter
                 label: Show Category in Filters
                 widget: "boolean"
+                required: false
