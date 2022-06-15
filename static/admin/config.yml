@@ -35,7 +35,7 @@ collections:
       - name: category
         label: Category
         widget: relation
-        collection: values
+        collection: taxonomy
         file: categories
         search_fields: [categories.*.name]
         display_fields: [categories.*.name]
