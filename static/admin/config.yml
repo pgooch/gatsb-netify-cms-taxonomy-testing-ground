@@ -48,7 +48,7 @@ collections:
       - name: categories
         label: Categories
         label_singular: Category
-        file: "categories"
+        file: "data/categories.md"
         fields:
           - name: categories
             label: Categories
